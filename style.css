@@ -99,7 +99,7 @@ a {
     font-size: 18px;
 }
 p{
-    font-size: 20px;
+    font-size: 30px;
 }
 .copyright {
     font-size: 20px;
@@ -130,7 +130,7 @@ form input {
     margin: 10px;
 }
 article {
-    margin-top: 320px;
+    margin-top: 220px;
 }
 
   @media  (max-width: 920px) {
