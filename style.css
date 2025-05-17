@@ -61,7 +61,7 @@ a {
     margin:0px 20px;
     height: 50px;
     width: 70px;
-    border: black solid 2px ;
+    border: rgb(0, 0, 0) solid 2px ;
 }
 
 .block a {
@@ -182,3 +182,87 @@ article {
   a  {
     text-decoration: none;
  }
+ body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+#question-container {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#answer-input-container {
+    margin-bottom: 20px;
+}
+
+#answer-input-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#answer-input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Важно, чтобы padding не увеличивал ширину */
+}
+
+
+#submit-button, #next-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#submit-button:hover, #next-button:hover {
+    background-color: #3e8e41;
+}
+
+#result-message {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.correct {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.incorrect {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
